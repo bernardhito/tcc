@@ -90,7 +90,8 @@
         android:layout_height="432dp"
         app:srcCompat="@drawable/onda_topo_certa"
         tools:layout_editor_absoluteX="-172dp"
-        tools:layout_editor_absoluteY="-147dp" />
+        tools:layout_editor_absoluteY="-147dp"
+        tools:ignore="MissingConstraints" />
 
 
     <ImageView
@@ -131,7 +132,8 @@
         android:layout_height="32dp"
         app:srcCompat="@drawable/instagram_icone_noir"
         tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="540dp" />
+        tools:layout_editor_absoluteY="540dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -139,7 +141,8 @@
         android:layout_height="32dp"
         app:srcCompat="@drawable/icone_google"
         tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="540dp" />
+        tools:layout_editor_absoluteY="540dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
