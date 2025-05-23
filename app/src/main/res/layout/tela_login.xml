@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/onda_baixo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/onda_cima"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-82dp" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="Digite a sua senha"
+        android:inputType="numberPassword"
+        android:paddingLeft="30dp"
+        android:textColorHint="#007036"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Esqueci minha senha"
+        android:textSize="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#007036"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="66dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Fazer Cadastro"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="Digite o seu email"
+        android:inputType="text"
+        android:paddingLeft="30dp"
+        android:textColorHint="#007036"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+
+    <LinearLayout
+        android:id="@+id/botao_logar"
+        android:layout_width="189dp"
+        android:layout_height="55dp"
+        android:background="@drawable/botao_gradiente"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="438dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Entrar"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="81dp"
+        android:layout_height="63dp"
+        android:contentDescription="ícone de login"
+        android:src="@drawable/logo_app"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
