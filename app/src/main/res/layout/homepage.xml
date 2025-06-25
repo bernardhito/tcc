@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paredebranca">
+
+    <LinearLayout android:id="@+id/menu_cima"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/borda_linear"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_app"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="318dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/menu"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/metas_semanais"
+        android:background="@drawable/bordamenus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Metas"
+        android:drawableLeft="@drawable/tasks"
+        android:padding="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/menu_cima"
+        android:layout_marginTop="165dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/Metas"
+        android:background="@drawable/bordamenus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Metas"
+        android:drawableLeft="@drawable/tasks"
+        android:padding="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/metas_semanais"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/progresso"
+        android:background="@drawable/bordamenus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progresso"
+        android:drawableLeft="@drawable/tasks"
+        android:padding="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/Metas"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/menu_baixo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/borda_linear"
+        app:layout_constraintTop_toBottomOf="@+id/menu_cima"
+        tools:layout_editor_absoluteX="-16dp"
+        android:layout_marginTop="635dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/halter" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/botao_inicio" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/alimentacao_saudavel" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

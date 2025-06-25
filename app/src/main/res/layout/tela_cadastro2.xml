@@ -2,147 +2,167 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/paredebranca"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="600dp"
-        android:layout_height="900dp"
-        app:srcCompat="@drawable/wave_certa_baixo"
+        android:id="@+id/imageView12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/logo_azul"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-95dp"
-        tools:layout_editor_absoluteY="248dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="656dp"
-        android:layout_height="432dp"
-        app:srcCompat="@drawable/onda_topo_certa"
-        tools:layout_editor_absoluteX="-172dp"
-        tools:layout_editor_absoluteY="-147dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="290dp"
-        android:layout_height="51dp"
-        android:rotation="-2"
-        app:srcCompat="@drawable/logo_app_2"
-        tools:layout_editor_absoluteX="-94dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:layout_width="274dp"
-        android:layout_height="66dp"
-        android:fontFamily="sans-serif-light"
-        android:text="Já possuo cadastro"
-        android:textColor="@color/white"
-        android:textSize="17dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteX="330dp"
         tools:layout_editor_absoluteY="16dp" />
 
-
-    <EditText
-        android:id="@+id/senha_cadastro"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:background="@drawable/backgroundblack"
-        android:drawableLeft="@drawable/cadeadoblack"
-        android:drawablePadding="10dp"
-        android:fontFamily="sans-serif-light"
-        android:hint="Senha"
-        android:inputType="numberPassword"
-        android:paddingLeft="30dp"
-        android:textColorHint="@color/black"
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/elementobaixo_azul"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="306dp" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp" />
 
-    <EditText
-        android:id="@+id/email_cadastro"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:background="@drawable/backgroundblack"
-        android:drawableLeft="@drawable/emailblack"
-        android:drawablePadding="10dp"
-        android:fontFamily="sans-serif-light"
-        android:hint="Email"
-        android:inputType="text"
-        android:paddingLeft="30dp"
-        android:textColorHint="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-    <EditText
-        android:id="@+id/confirmar_senha"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:background="@drawable/backgroundblack"
-        android:drawableLeft="@drawable/cadeadoblack"
-        android:drawablePadding="10dp"
-        android:fontFamily="sans-serif-light"
-        android:hint="Confirmar senha"
-        android:inputType="numberPassword"
-        android:paddingLeft="30dp"
-        android:textColorHint="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="380dp" />
-
-    <LinearLayout
-        android:id="@+id/botao_cadastrar"
-        android:layout_width="189dp"
-        android:layout_height="55dp"
-        android:background="@drawable/botao_gradiente"
-        android:clickable="true"
-        android:focusable="true"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="12dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="459dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:text="Cadastrar"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp" />
-    </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="20dp"
-        android:layout_height="32dp"
-        app:srcCompat="@drawable/instagram_icone_noir"
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/elementocima_azul"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="565dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="20dp"
-        android:layout_height="32dp"
-        app:srcCompat="@drawable/icone_google"
+        android:id="@+id/imageView11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/logo_app_2"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="565dp" />
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Complete seus dados"
+        android:textColor="@color/azulwelcome"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        tools:layout_editor_absoluteX="16dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nome completo"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editarNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordamenus"
+            android:textColor="@color/azulwelcome" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Data de nascimento"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        tools:layout_editor_absoluteX="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/DataNasc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordamenus"
+            android:inputType="date"
+            android:textColor="@color/azulwelcome" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Celular"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+        tools:layout_editor_absoluteX="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Celular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordamenus"
+            android:inputType="phone"
+            android:textColor="@color/azulwelcome" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="CPF"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
+        tools:layout_editor_absoluteX="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CPF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordamenus"
+            android:inputType="number"
+            android:textColor="@color/azulwelcome" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botao_azul"
+        android:text="Finalizar Cadastro"
+        android:textColor="@color/white"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="66dp"
-        android:fontFamily="sans-serif-light"
-        android:text="ou entre com"
-        android:textColor="@color/black"
-        android:textSize="15dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="531dp" />
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/voltar"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
